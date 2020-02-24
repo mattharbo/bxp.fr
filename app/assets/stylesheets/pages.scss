@@ -1,0 +1,27 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.slide{
+	background-image: url("background.svg");
+	background-repeat: repeat;
+	height:100vh;
+	width:100%;
+}
+.header{
+	position:fixed;
+	background-color:purple;
+	height:60px;
+	width:1200px;
+}
+.footer{
+	background-color:blue;
+	height:100px;
+	width:auto;	
+}
+.blue{
+	background-color:blue;
+}
+.brown{
+	background-color:brown;	
+}
