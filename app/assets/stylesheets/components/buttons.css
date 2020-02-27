@@ -1,0 +1,14 @@
+.mainbutton{
+	background-color:#225CFE;
+	border-radius:5px;
+	width:auto;
+	height:auto;
+	text-decoration:none;
+	color:white;
+	margin-top:14px;
+	padding:14px 32px;
+}
+.mainbutton:hover{
+	background-color:red;
+	
+}
