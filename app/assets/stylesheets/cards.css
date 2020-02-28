@@ -1,0 +1,21 @@
+.card{
+	background-color: white;
+	border-radius: 5px;
+	-webkit-box-shadow: 0px 1px 5px 0px rgba(34,92,254,0.25);
+	-moz-box-shadow: 0px 1px 5px 0px rgba(34,92,254,0.25);
+	box-shadow: 0px 1px 5px 0px rgba(34,92,254,0.25);
+	width: 250px;
+	height: auto;
+	padding: 30px 25px 25px 25px;
+	text-align: center;
+}
+.card > h3{
+	margin:0;
+	color: #020202;
+}
+.card > p{
+	margin:17px 0 0 0;
+}
+.card > img{
+	margin-top:15px;
+}

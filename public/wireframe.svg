@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="428px" height="246px" viewBox="0 0 428 246" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>Wireframe</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-2.5%" y="-4.4%" width="105.0%" height="108.8%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.425271739 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-855.000000, -163.000000)">
+            <g id="Wireframe" filter="url(#filter-1)" transform="translate(859.000000, 166.000000)">
+                <path d="M7,0 L413,0 C416.865993,-7.10171439e-16 420,3.13400675 420,7 L420,18 L0,18 L0,7 C-4.73447626e-16,3.13400675 3.13400675,7.10171439e-16 7,0 Z" id="Rectangle" fill="#EEEEEE"></path>
+                <circle id="Oval" fill="#FF9592" cx="9.5" cy="9.5" r="2.5"></circle>
+                <circle id="Oval" fill="#FFDB39" cx="18.5" cy="9.5" r="2.5"></circle>
+                <circle id="Oval" fill="#8FF79D" cx="27.5" cy="9.5" r="2.5"></circle>
+                <rect id="Rectangle" fill="#215CFE" x="0" y="18" width="420" height="20"></rect>
+                <rect id="Rectangle" fill="#FFFFFF" x="312" y="26" width="41" height="4" rx="2"></rect>
+                <circle id="Oval" fill="#FFFFFF" cx="365" cy="28" r="4"></circle>
+                <path d="M0,38 L79,38 L79,238 L7,238 C3.13400675,238 4.73447626e-16,234.865993 0,231 L0,38 Z" id="Rectangle" fill="#D5DFFD"></path>
+                <rect id="Rectangle" fill="#FFFFFF" x="15" y="52" width="50" height="5" rx="2.5"></rect>
+                <rect id="Rectangle" fill="#FFFFFF" x="15" y="64" width="50" height="5" rx="2.5"></rect>
+                <rect id="Rectangle" fill="#FFFFFF" x="15" y="76" width="50" height="5" rx="2.5"></rect>
+                <rect id="Rectangle" fill="#FFFFFF" x="15" y="88" width="50" height="5" rx="2.5"></rect>
+                <path d="M79,38 L420,38 L420,231 C420,234.865993 416.865993,238 413,238 L79,238 L79,38 Z" id="Rectangle" fill="#F3F6FE"></path>
+                <rect id="Rectangle" fill="#FFFFFF" x="109" y="91" width="215" height="22"></rect>
+                <rect id="Rectangle" fill="#FFFFFF" x="111" y="138" width="285" height="90"></rect>
+                <rect id="Rectangle" fill="#D5DFFD" x="164" y="68" width="50" height="10"></rect>
+                <rect id="Rectangle" fill="#D5DFFD" x="346" y="91" width="50" height="5" rx="2.5"></rect>
+                <rect id="Rectangle" fill="#97E3AA" x="356" y="48" width="40" height="10" rx="2.5"></rect>
+                <rect id="Rectangle" fill="#D5DFFD" x="356" y="100" width="40" height="5" rx="2.5"></rect>
+                <rect id="Rectangle" fill="#215CFE" x="109" y="68" width="50" height="10"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

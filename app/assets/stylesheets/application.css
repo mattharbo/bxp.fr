@@ -14,18 +14,35 @@
  *= require_self
  */
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat:500,600,700&display=swap');
-@import url('components/buttons.css');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500&display=swap');
+@import url('buttons.css');
+@import url('footer.css');
 body{
 	font-family: 'Montserrat';
-	font-size: 16px;
+	font-size: 15px;
 	margin:0;
 }
 .container{
-	width: 1200px;
+	width:1200px;
 	margin:0 auto;
-	background-color: pink;
+	height:auto;
+	color:#898D98;
+	//background-color: pink;
 }
-.top20{
-	padding-top: 60px;
+.container > h3{
+	margin:0;
+	color: #020202;
+}
+.container_explanation{
+	width: 670px;
+	margin: 30px auto 60px auto;
+}
+.centered{
+	text-align: center;
+}
+.blue{
+	color:#215CFE;
+}
+.bolder{
+	font-weight: 500;
 }

@@ -5,10 +5,11 @@
 	height:auto;
 	text-decoration:none;
 	color:white;
-	margin-top:14px;
+	font-weight:600;
 	padding:14px 32px;
 }
 .mainbutton:hover{
-	background-color:red;
-	
+	background-color:#0849FD;
+	cursor:pointer;
+	opacity:1.3;
 }

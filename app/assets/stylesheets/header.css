@@ -1,0 +1,29 @@
+.header{
+	position:fixed;
+	z-index:1;
+	background-color:white;
+	width: 100%;
+}
+.header_content{
+	display: flex;
+	align-items: center;
+	justify-content:space-between;
+	padding: 0 30px;
+	height:96px;
+	color: #545454;
+	font-weight:400; 
+}
+.header_content > img{
+	width: 100px;
+	height: 47px;
+}
+.header_content > ul{
+	display: inline;
+	margin: 0;
+	padding: 0;
+	text-align: right;
+}
+.header_content > ul > li{
+	display: inline;
+	padding-right: 40px;
+}
