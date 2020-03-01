@@ -2,6 +2,7 @@
 	background-image: url("background.svg");
 	background-repeat: repeat;
 	background-color:#225CFE;
+	margin-top:50px;
 }
 .footer-content{
 	display: flex;

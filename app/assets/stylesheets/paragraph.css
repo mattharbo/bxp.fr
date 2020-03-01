@@ -21,6 +21,7 @@
 }
 .paragraph_right{
 	text-align:right;
+	justify-content: flex-start;
 	flex: 0 0 350px;
 }
 .paragraph_right > h3{

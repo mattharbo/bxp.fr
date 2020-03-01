@@ -3,8 +3,6 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 .slide{
-	//height:100vh;
-	//width:100%;
 	padding-bottom:50px;
 }
 .gradient{
@@ -23,6 +21,12 @@
 	height:260px;
 	width:1200px;
 	border-radius:8px;
+	
+	//text-align:center;
+}
+.withbackground{
+	background-image: url("background-main-banner.svg");
+	background-repeat: repeat;
 }
 .taglinebanner > h2{
 	position:absolute;
@@ -31,6 +35,8 @@
 	color:#020202;
 	font-size:32px;
 	font-weight:500;
+
+	//padding-top:40px;
 }
 .taglinebanner > p{
 	position:absolute;
@@ -39,6 +45,8 @@
 	color:#898D98;
 	font-size:16px;
 	font-weight:400;
+
+	//padding-top:50px;
 }
 .taglinebanner > img{
 	position:absolute;
@@ -52,14 +60,26 @@
 	padding:0 90px;
 }
 .lonely_description{
-	margin-top:60px;
+	margin-top:40px;
 	color:#898D98;
 	padding:0 130px;
+	text-align:justify;
 }
 .content_slice{
 	display: flex;
 	align-items: center;
 	justify-content:space-between;
 	margin:50px 60px 0 50px;
+}
+.services_container{
 	display:flex;
+	align-items: center;
+	justify-content:space-between;
+}
+.avatar_container{
+	display:flex;
+	align-items: center;
+	justify-content:space-between;
+	padding:0 340px;
+	margin-top:30px;
 }
