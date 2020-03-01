@@ -3,25 +3,83 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 .slide{
-	background-image: url("background.svg");
-	background-repeat: repeat;
-	height:100vh;
-	width:100%;
+	padding-bottom:50px;
 }
-.header{
-	position:fixed;
-	background-color:purple;
-	height:60px;
+.gradient{
+	background: rgb(230,237,255);
+	background: linear-gradient(0deg, rgba(230,237,255,1) 0%, rgba(255,255,255,0.6685049019607843) 100%);
+}
+.padding_top_100{
+	padding-top: 100px;
+}
+.padding_top_50{
+	padding-top: 50px;
+}
+.taglinebanner{
+	position:relative;
+	background-color:#F3F6FE;
+	height:260px;
 	width:1200px;
+	border-radius:8px;
+	
+	//text-align:center;
 }
-.footer{
-	background-color:blue;
-	height:100px;
-	width:auto;	
+.withbackground{
+	background-image: url("background-main-banner.svg");
+	background-repeat: repeat;
 }
-.blue{
-	background-color:blue;
+.taglinebanner > h2{
+	position:absolute;
+	top:35px;
+	left:80px;
+	color:#020202;
+	font-size:32px;
+	font-weight:500;
+
+	//padding-top:40px;
 }
-.brown{
-	background-color:brown;	
+.taglinebanner > p{
+	position:absolute;
+	top:150px;
+	left:80px;
+	color:#898D98;
+	font-size:16px;
+	font-weight:400;
+
+	//padding-top:50px;
+}
+.taglinebanner > img{
+	position:absolute;
+	top:50px;
+	right:70px;
+}
+.cards_container{
+	display:flex;
+	align-items: center;
+	justify-content:space-between;
+	padding:0 90px;
+}
+.lonely_description{
+	margin-top:40px;
+	color:#898D98;
+	padding:0 130px;
+	text-align:justify;
+}
+.content_slice{
+	display: flex;
+	align-items: center;
+	justify-content:space-between;
+	margin:50px 60px 0 50px;
+}
+.services_container{
+	display:flex;
+	align-items: center;
+	justify-content:space-between;
+}
+.avatar_container{
+	display:flex;
+	align-items: center;
+	justify-content:space-between;
+	padding:0 340px;
+	margin-top:30px;
 }
