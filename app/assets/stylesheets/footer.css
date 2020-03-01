@@ -23,3 +23,10 @@
 	justify-content:space-between;
 	width: 180px;
 }
+.legals a{
+	text-decoration:none;
+	color:white;
+}
+.legals a:hover{
+	text-decoration:underline;
+}
