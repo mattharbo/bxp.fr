@@ -3,6 +3,7 @@
 	background-repeat: repeat;
 	background-color:#225CFE;
 	margin-top:50px;
+	width: 100%;
 }
 .footer-content{
 	display: flex;
