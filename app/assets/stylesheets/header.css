@@ -27,3 +27,19 @@
 	display: inline;
 	padding-right: 40px;
 }
+
+@media (max-width: 767px) {
+	.header_content{
+		/*visibility: hidden;*/
+		height:60px;
+		justify-content:center;
+	}
+	.main_logo{
+		width:50px;
+		height:23.5px;
+
+	}
+	.header_content > ul{
+		display: none;
+	}
+}
