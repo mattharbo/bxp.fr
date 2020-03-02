@@ -13,7 +13,6 @@
 	color:white;
 	font-size: 12px;
 	padding: 0 50px;
-
 }
 .footer-content > img{
 	flex-grow:1;
@@ -30,4 +29,21 @@
 }
 .legals a:hover{
 	text-decoration:underline;
+}
+
+@media (max-width: 767px) {
+	.footer{
+		margin-top:auto;
+	}
+	.footer-content {
+		font-size: 8px;
+		padding: 0 20px;
+		height:50px;
+	}
+	.footer-content > img {
+		visibility:hidden;
+	}
+	.legals{
+		width: 120px;
+	}
 }

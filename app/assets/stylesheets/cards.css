@@ -37,9 +37,6 @@
 .service:hover{
 	background-color:#F3F6FE;
 }
-.founder{
-	/*background-color:green;*/
-}
 .founder > img{
 	width:130px;
 	height:130px;
@@ -47,4 +44,29 @@
 }
 .founder > h3{
 	color:#020202;
+}
+
+@media (max-width: 767px) {
+	.card{
+		border-radius: 0;
+		-webkit-box-shadow: none;
+		-moz-box-shadow: none;
+		box-shadow: none;
+		width: 100%;
+		height: auto;
+		padding: 15px 25px 10px 25px;
+	}
+	.service{
+		width:50%;
+		height:132px;
+		border-radius: 0;
+	}
+	.founder > img{
+		width:90px;
+		height:90px;
+		border-radius:50%;
+	}
+	.founder > h3{
+		font-size:15px;
+	}
 }
