@@ -11,8 +11,6 @@
 	justify-content:space-between;
 	padding: 0 30px;
 	height:96px;
-	color: #545454;
-	font-weight:400; 
 }
 .main_logo{
 	width: 100px;
@@ -27,6 +25,11 @@
 .header_content > ul li{
 	display: inline;
 	padding-right: 40px;
+}
+.header_content > ul li > a{
+	text-decoration: none;
+	color: #545454;
+	font-weight:400; 
 }
 .mobile_menu{
 	display:none;
@@ -51,7 +54,7 @@
 	.header_content > ul li{
 		display: block;
 		background-color: #f1f5ff;
-		height: 60px;
+		height: 70px;
 		display: flex;
 		align-items: center;
 		padding-left: 30px;
@@ -63,6 +66,9 @@
 		margin-right: 20px;
 		text-decoration: none;
 		color:#215CFE;
-		font-weight: 500;
+		font-weight: bolder;
+		border:1px solid #215CFE;
+		border-radius:5px;
+		padding:6px 11px;
 	}
 }

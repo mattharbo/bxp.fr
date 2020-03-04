@@ -17,6 +17,9 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500&display=swap');
 @import url('buttons.css');
 @import url('footer.css');
+html{
+	scroll-behavior: smooth;
+}
 body{
 	font-family: 'Montserrat';
 	font-size: 15px;
