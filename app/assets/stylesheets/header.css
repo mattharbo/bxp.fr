@@ -7,6 +7,7 @@
 .header_content{
 	display: flex;
 	align-items: center;
+	flex-wrap: wrap;
 	justify-content:space-between;
 	padding: 0 30px;
 	height:96px;
@@ -23,23 +24,45 @@
 	padding: 0;
 	text-align: right;
 }
-.header_content > ul > li{
+.header_content > ul li{
 	display: inline;
 	padding-right: 40px;
+}
+.mobile_menu{
+	display:none;
 }
 
 @media (max-width: 767px) {
 	.header_content{
-		/*visibility: hidden;*/
 		height:60px;
-		justify-content:center;
+		padding: 0;
 	}
 	.main_logo{
 		width:50px;
 		height:23.5px;
-
+		padding-left:20px;
+		margin: 20px 0 20px 0;
 	}
 	.header_content > ul{
-		display: none;
+		display: none; /* to be replaced by display block on click by JS script*/
+		margin-top: -8px;
+		width: 120%;
+	}
+	.header_content > ul li{
+		display: block;
+		background-color: #f1f5ff;
+		height: 60px;
+		display: flex;
+		align-items: center;
+		padding-left: 30px;
+		font-weight: 500;
+	}
+	.mobile_menu{
+		display: block;
+		position: relative;
+		margin-right: 20px;
+		text-decoration: none;
+		color:#215CFE;
+		font-weight: 500;
 	}
 }

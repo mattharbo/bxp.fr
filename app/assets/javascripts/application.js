@@ -14,3 +14,19 @@
 //= require activestorage
 //= require turbolinks
 //= require_tree .
+
+function expandMobileMenu() {
+
+	var x = document.getElementById("expanded_menu");
+
+	if (x.className !== "expanded_menu") {
+		x.className = "expanded_menu";
+		x.style.display="block";
+		console.log("open")
+	} else {
+		x.className = "";
+		x.style.display="none";
+		console.log("close")
+	}
+
+}
