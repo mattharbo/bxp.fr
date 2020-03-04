@@ -46,6 +46,13 @@ body{
 .blue{
 	color:#215CFE;
 }
+.beta{
+	background-color:#215CFE;
+	border-radius:3px;
+	padding: 2px 5px;
+	color: white;
+	font-size:9px;
+}
 .bolder{
 	font-weight: 500;
 }
