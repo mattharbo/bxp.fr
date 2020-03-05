@@ -52,6 +52,11 @@ body{
 	padding: 2px 5px;
 	color: white;
 	font-size:9px;
+	margin-left: 5px;
+}
+.label{
+	font-size:9px;
+	font-weight:500;
 }
 .bolder{
 	font-weight: 500;
