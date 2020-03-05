@@ -28,7 +28,8 @@
 	height:260px;
 }
 .withbackground{
-	background-image: url("background-main-banner.svg");
+	/*background-image: url("background-main-banner.svg");*/
+	background-image: url("background-main-banner.png");
 	background-repeat: repeat;
 }
 .taglinebanner > h2{
@@ -46,6 +47,9 @@
 	color:#898D98;
 	font-size:16px;
 	font-weight:400;
+}
+.taglinebanner_top p{
+	color:#020202;
 }
 .taglinebanner .paragraph_position{
 	top:140px;
