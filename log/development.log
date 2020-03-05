@@ -15560,3 +15560,21 @@ Started PUT "/__web_console/repl_sessions/3c6499dd234742bfff2c17948a1b6384" for 
 Started PUT "/__web_console/repl_sessions/3c6499dd234742bfff2c17948a1b6384" for ::1 at 2020-03-05 17:36:20 +0100
 Started PUT "/__web_console/repl_sessions/3c6499dd234742bfff2c17948a1b6384" for ::1 at 2020-03-05 17:36:21 +0100
 Started PUT "/__web_console/repl_sessions/3c6499dd234742bfff2c17948a1b6384" for ::1 at 2020-03-05 17:36:32 +0100
+Started GET "/" for ::1 at 2020-03-05 17:42:05 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 39ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (uninitialized constant ActionView::CompiledTemplates::GoogleAnalytics):
+    16:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    17:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    18: 
+    19:     <%= analytics_init if GoogleAnalytics.valid_tracker? %>
+    20: 
+    21:   </head>
+    22: 
+  
+app/views/layouts/application.html.erb:19:in `_app_views_layouts_application_html_erb__300669616396412095_70270739490700'
