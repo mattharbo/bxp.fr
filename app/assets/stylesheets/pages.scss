@@ -20,17 +20,14 @@
 	background-color:#F3F6FE;
 	width:1200px;
 	border-radius:8px;
+	background-image: url("background-main-banner.svg");
+	background-repeat: repeat;
 }
 .taglinebanner_top{
 	height:215px;
 }
 .taglinebanner_bottom{
 	height:260px;
-}
-.withbackground{
-	/*background-image: url("background-main-banner.svg");*/
-	background-image: url("background-main-banner.png");
-	background-repeat: repeat;
 }
 .taglinebanner > h2{
 	position:absolute;
