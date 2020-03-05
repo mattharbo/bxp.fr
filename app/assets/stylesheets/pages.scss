@@ -97,8 +97,12 @@
 		border-radius:0px;
 		text-align:center;
 	}
+	.withbackground{
+		background-image: url("background-main-banner.svg");
+		background-repeat: repeat;
+	}
 	.taglinebanner_top{
-		height:232px;
+		height:242px;
 	}
 	.taglinebanner_bottom{
 		height:260px;

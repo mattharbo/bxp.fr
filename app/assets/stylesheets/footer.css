@@ -34,6 +34,8 @@
 @media (max-width: 767px) {
 	.footer{
 		margin-top:auto;
+		background-image: url("background.svg");
+		background-repeat: repeat;
 	}
 	.footer-content {
 		font-size: 8px;
