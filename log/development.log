@@ -15438,3 +15438,125 @@ Processing by PagesController#home as HTML
 Completed 200 OK in 40ms (Views: 36.4ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2020-03-05 17:34:49 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 401ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `‘ga’' for #<#<Class:0x00007fd25f61a998>:0x00007fd2618b3860>):
+    17:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    18: 
+    19:     <% if %w(development production).include? Rails.env %>
+    20:       <%= render partial: ‘ga’ %>
+    21:     <% end %>
+    22: 
+    23: 
+  
+app/views/layouts/application.html.erb:20:in `_app_views_layouts_application_html_erb__300669616396412095_70270778171180'
+Started GET "/" for ::1 at 2020-03-05 17:35:11 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 64ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Missing partial pages/_ga, application/_ga with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/matthieuharbonnier/Documents/Bauxprojets/bxp.fr/app/views"
+):
+    17:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    18: 
+    19:     <% if %w(development production).include? Rails.env %>
+    20:       <%= render "ga" %>
+    21:     <% end %>
+    22: 
+    23: 
+  
+app/views/layouts/application.html.erb:20:in `_app_views_layouts_application_html_erb__300669616396412095_70270737854020'
+Started GET "/" for ::1 at 2020-03-05 17:35:19 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_ga.html.erb (266.5ms)
+Completed 500 Internal Server Error in 312ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `‘GOOGLE_ANALYTICS_TRACKING_ID’' for #<#<Class:0x00007fd25f61a998>:0x00007fd261c52228>):
+     6: 
+     7: // Create tracker.
+     8: 
+     9: ga(‘create’, ‘<%= ENV[‘GOOGLE_ANALYTICS_TRACKING_ID’] %>’, ‘auto’);
+    10: 
+    11: // End Google Analytics
+    12: 
+  
+app/views/layouts/_ga.html.erb:9:in `_app_views_layouts__ga_html_erb___3943236109090233708_70270776702420'
+app/views/layouts/application.html.erb:20:in `_app_views_layouts_application_html_erb__300669616396412095_70270775897520'
+Started GET "/" for ::1 at 2020-03-05 17:36:08 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_ga.html.erb (226.8ms)
+Completed 500 Internal Server Error in 250ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `‘GOOGLE_ANALYTICS_TRACKING_ID’' for #<#<Class:0x00007fd25f61a998>:0x00007fd25dd1f768>):
+     6: 
+     7: // Create tracker.
+     8: 
+     9: ga(‘create’, ‘<%= ENV[‘GOOGLE_ANALYTICS_TRACKING_ID’] %>’, ‘auto’);
+    10: 
+    11: // End Google Analytics
+    12: 
+  
+app/views/layouts/_ga.html.erb:9:in `_app_views_layouts__ga_html_erb___3943236109090233708_70270746863440'
+app/views/layouts/application.html.erb:20:in `_app_views_layouts_application_html_erb__300669616396412095_70270746934660'
+Started GET "/" for ::1 at 2020-03-05 17:36:10 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_ga.html.erb (240.1ms)
+Completed 500 Internal Server Error in 282ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `‘GOOGLE_ANALYTICS_TRACKING_ID’' for #<#<Class:0x00007fd25f61a998>:0x00007fd25ca8fe90>):
+     6: 
+     7: // Create tracker.
+     8: 
+     9: ga(‘create’, ‘<%= ENV[‘GOOGLE_ANALYTICS_TRACKING_ID’] %>’, ‘auto’);
+    10: 
+    11: // End Google Analytics
+    12: 
+  
+app/views/layouts/_ga.html.erb:9:in `_app_views_layouts__ga_html_erb___3943236109090233708_70270774201320'
+app/views/layouts/application.html.erb:20:in `_app_views_layouts_application_html_erb__300669616396412095_70270760697000'
+Started GET "/" for ::1 at 2020-03-05 17:36:11 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_ga.html.erb (256.4ms)
+Completed 500 Internal Server Error in 291ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `‘GOOGLE_ANALYTICS_TRACKING_ID’' for #<#<Class:0x00007fd25f61a998>:0x00007fd25cbdd590>):
+     6: 
+     7: // Create tracker.
+     8: 
+     9: ga(‘create’, ‘<%= ENV[‘GOOGLE_ANALYTICS_TRACKING_ID’] %>’, ‘auto’);
+    10: 
+    11: // End Google Analytics
+    12: 
+  
+app/views/layouts/_ga.html.erb:9:in `_app_views_layouts__ga_html_erb___3943236109090233708_70270730073500'
+app/views/layouts/application.html.erb:20:in `_app_views_layouts_application_html_erb__300669616396412095_70270731530940'
+Started PUT "/__web_console/repl_sessions/3c6499dd234742bfff2c17948a1b6384" for ::1 at 2020-03-05 17:36:20 +0100
+Started PUT "/__web_console/repl_sessions/3c6499dd234742bfff2c17948a1b6384" for ::1 at 2020-03-05 17:36:20 +0100
+Started PUT "/__web_console/repl_sessions/3c6499dd234742bfff2c17948a1b6384" for ::1 at 2020-03-05 17:36:21 +0100
+Started PUT "/__web_console/repl_sessions/3c6499dd234742bfff2c17948a1b6384" for ::1 at 2020-03-05 17:36:32 +0100
