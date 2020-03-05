@@ -97,8 +97,11 @@
 		border-radius:0px;
 		text-align:center;
 	}
-	.taglinebanner .paragraph_position{
-		font-size:12px;
+	.taglinebanner_top{
+		height:232px;
+	}
+	.taglinebanner_bottom{
+		height:260px;
 	}
 	.padding_top_100{
 		padding-top: 30px;
@@ -124,13 +127,16 @@
 		color:#898D98;
 		font-size:16px;
 	}
+	.taglinebanner .paragraph_position{
+		font-size:12px;
+	}
 	.cards_container{
 		width:auto;
 		padding:0 0;
 	}
 	.services_container{
 		width:auto;
-		padding:0 0;
+		padding:0 30px;
 		margin-top:15px;
 	}
 	.avatar_container{
