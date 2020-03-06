@@ -27,15 +27,20 @@
 	height:215px;
 }
 .taglinebanner_bottom{
-	height:260px;
+	height:290px;
 }
 .taglinebanner > h2{
 	position:absolute;
-	top:35px;
 	left:65px;
 	color:#020202;
 	font-size:34px;
 	font-weight:500;
+}
+.h2_top{
+	top:35px;
+}
+.h2_bottom{
+	top:0px;
 }
 .taglinebanner > p{
 	position:absolute;
@@ -49,11 +54,11 @@
 	color:#020202;
 }
 .taglinebanner .paragraph_position{
-	top:140px;
+	top:170px;
 }
 .taglinebanner > img{
 	position:absolute;
-	top:50px;
+	top:70px;
 	right:50px;
 }
 .cards_container{
@@ -127,10 +132,12 @@
 		top:auto;
 		left:auto;
 		color:#020202;
-		margin:0 auto;
+		margin:0px auto;
 		padding:0 30px;
-		
 		font-size:16px;
+	}
+	.align_left{
+		text-align:left;
 	}
 	.taglinebanner .paragraph_position{
 		font-size:12px;
